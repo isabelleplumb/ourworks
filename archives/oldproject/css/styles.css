@@ -1,0 +1,199 @@
+
+/* 
+===================== 
+GLOBAL CHANGES BELOW 
+===================== 
+*/
+
+body {
+    margin:0px;
+    padding:0px; 
+    font-size:13px; 
+    font-family:Georgia, "Times New Roman" serif; 
+    color:#919191; 
+    background-color:#F5F5F0;
+}
+
+.clear:after{content:".";display:block;height:0px;clear:both;visibility:hidden;line-height:0px;}
+.clear{display:block;clear:both;}
+
+* html .clear {height:1%;}
+
+a {outline:none;text-decoration:none;color:#FF7900;}
+
+code {font-weight:normal;font-style:normal;font-family:Georgia, "Times New Roman" serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img {margin:0px;padding:0px;border:none;vertical-align:middle;}
+.imgholder, .imgl, .imgr {padding:4px;border:1px solid #D6D6D6;}
+.imgl{float:left;margin:0px 15px 15px 0px;clear:left;}
+.imgr{float:right;margin:0px 0px 15px 15px;clear:right;}
+
+/* ---------- HTML 5 OVERRIDES ------------ */
+
+address, article, aside, figcaption, figure, footer, header, hgroup, nav, section {margin:0px;padding:0px;display:block;}
+
+/* ----- WRAPPER ----- */
+div.wrapper {display:block;width:100%;margin:0px;padding:0px;text-align:left;}
+
+.row1, .row1 a{color:#3B1400;background-color:#7A52CC;}
+.row2 {color:#3B1400;background-color:#8D8D8D;}
+.row2 a{color:#3B1400;}
+.row2 a:hover{color:#7A52CC;}
+.row3 {color:#3B1400;background-color:#7A52CC;}
+.row3 a{color:#FFFFFF;background-color:#7A52CC;}
+.row4, .row4 a{color:#919191;background-color:#333333;}
+
+.row1 {border-bottom:7px solid #FFFFFF;}
+/* GENERAL HTML STYLES  */
+
+#header, #container, #footer, #copyright{display:block;width:960px !important;margin:0px auto;}
+
+nav ul {margin:0px;padding:0px;list-style:none;}
+
+h1, h2, h3, h4, h5, h6 {margin:0px;padding:0px;font-size:32px;font-weight:normal;font-style:italic;line-height:normal;}
+address{font-style:normal;}
+
+.one_quarter, .two_quarter, .three_quarter, .four_quarter {display:block;float:left;margin:0px 20px 0px 0px;}
+.one_quarter {width:225px;}
+.two_quarter {width:470px;}
+.three_quarter {width:715px;}
+.four_quarter {width:960px; float:none;margin-right:0px;clear:both;}
+
+.one-third, .two-third, .three-third {display:block;float:left;margin: 0px 30px 0px 0px;}
+.one-third {width:300px;}
+.two-third {width:630px;}
+.three-third {width:960px; float:none; margin-right:0px;clear:both;}
+
+.lastbox {margin-right:0px;}
+
+.center {text-align:center;}
+
+p {text-indent:50px;}
+
+.button {display:block;
+    float:right;
+    margin:10px 0px 0px 0px;
+    padding:20px 0px;
+    color:#C0BAB6;
+    position:relative;
+    top:36px;}
+/* --------------- HEADER ------------------ */
+
+#header {padding:20px 0px;}
+
+#header hgroup {float:left;margin:0px 0px 20px 0px;}
+#header hgroup h1, #header hgroup h2 {font-weight:normal;font-style:normal;text-transform:none;}
+#header hgroup h1 {font-size:36px;}
+#header hgroup h2 {font-size:13px;}
+
+#header nav {
+    display:block;
+    float:right;
+    margin:10px 0px 0px 0px;
+    padding:20px 0px;
+    color:#C0BAB6;
+    /*background-color:#232323;*/
+    
+    position:relative;
+    top:36px;
+}
+#header nav ul {
+    padding:0px 20px;
+}
+#header nav li {
+    display:inline;
+    margin:0px 25px 0px 0px;
+    text-transform:uppercase;
+    
+    margin-right:2px; /*Just added this on 5/20*/
+}
+#header nav li.last {
+    margin-right:0px;
+}
+#header nav li a {
+    color:#FFFFFF;
+    background-color:#3B1400;
+    padding:15px 30px;
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius:8px 8px 0px 0px;
+    -webkit-border-radius:8px 8px 0px 0px;
+}
+#header nav li a:hover {
+    color:#FFFFFF; 
+    background-color:#996633;
+}
+#header nav li a.current {
+    background:#FFFFFF; color:#3B1400;
+    }
+
+#parchment {
+    background:url('../img/parchment.jpg') repeat;
+    background-size: 100% auto;
+    background-position: 0px 0px;
+    
+}
+/* ------------ CONTENT AREA -------- */
+
+
+#container {padding:30px 0px;}
+#container section {display:block;width:100%;margin:0px 0px 30px 0px;padding:0px;}
+#container .last{margin:0px;}
+#container .more{text-align:left;}
+
+/*-------MAIN CONTENT-------*/
+
+#container #homepage{display:block;width:100%;line-height:1.8em;}
+
+#container #homepage #services article figure img {margin:0px 0px 15px 0px;padding:4px;border:1px solid #D6D6D6;}
+#container #homepage #services article h2 {font-size:14px;font-weight:bold;}
+
+#container #homepage #intro article figure img {float:right;margin:0px 0px 10px 0px;padding:4px;border:1px solid #D6D6D6;} 
+#container #homepage #intro article figure figcaption {float:left;width:460px;}
+
+a.mybutton {
+    color:#FFF;
+    font-size:1.5em;
+    background-color:#3B1400;
+    padding:15px 30px;
+    line-height:50px;
+    border-radius:8px;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+}
+a.mybutton:hover {
+    background-color:#0057CA;
+}
+
+/*-------FOOTER SECTION-------*/
+
+#footer{padding:30px 0px;font-size:12px;line-height:16px;}
+#footer section h2.title {margin:0px 0px 25px 0px;padding:0px;color:#FFFFFF;background-color:#333333;font-size:12px;font-weight:bold;text-transform:uppercase;}
+#footer section nav li {margin:0px 0px 5px 0px;border-bottom:1px dashed #555555;}
+#footer section nav li.last{margin:0px;}
+
+/*-------COPYRIGHT LINE-------*/
+
+#copyright {padding:20px 0px;}
+#copyright p {margin:0px;padding:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
